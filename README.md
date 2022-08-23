@@ -21,7 +21,7 @@ It exists to augment the `shield-agent` job of the [SHIELD BOSH
 Release][1], and only in cases where the bbr utilities are
 missing.
 
-To colocate this BOSH release with your shield-agent instance
+To colocate this specific `v0.2.2` BOSH release with your shield-agent instance
 group, just add a new job to the group:
 
 ```yaml
@@ -33,9 +33,11 @@ instance_groups:
         release: shield-addon-bbr
 
 releases:
-  # ...
+  # ...  
   - name: shield-addon-bbr
-    version: latest
+    sha1: 45741972f26397cac8edde28ee4fae889917749f80420c7c0c343f3dfadb7150
+    url: https://github.com/rwsgithubcf/shield-addon-bbr-boshrelease/releases/download/v0.2.2/shield-addon-bbr-0.2.2.tgz
+    version: 0.2.2
 ```
 
 That's really all there is to it.
