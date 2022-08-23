@@ -44,6 +44,7 @@ releases:
 That's really all there is to it.
 
 Original project links:
+
 Bug: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
 
 Owner:   https://github.com/starkandwayne/shield-boshrelease
