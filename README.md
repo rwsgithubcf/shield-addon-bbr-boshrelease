@@ -37,7 +37,7 @@ releases:
   # ...  
   - name: shield-addon-bbr    
     sha1: 1448fe17c455a817cc07a8fb6f6758eb6d7f9267
-    url: https://github.com/rwsgithubcf/shield-addon-bbr-boshrelease/raw/master/releases/download/v0.2.2/shield-addon-bbr-0.2.2.tgz    
+    url: https://github.com/rwsgithubcf/shield-addon-bbr-boshrelease/releases/download/v0.2.2/shield-addon-bbr-0.2.2.tgz
     version: 0.2.2
 ```
 
