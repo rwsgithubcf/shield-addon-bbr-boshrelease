@@ -7,7 +7,7 @@ BOSH deployments.
 ## Versions
 
 The original project maintainers (Stark & Wayne) do not actively maintain it anymore, so forked it and built a new release.
-The following version is available from this repo:
+The following `BBR` version is available from this repo:
 
  - **1.9.36** via `shield-addon-bbr`
 
@@ -19,7 +19,7 @@ and a link to the canonical download page.
 
 **Note:** This BOSH release is not intended to stand on its own.
 It exists to augment the `shield-agent` job of the [SHIELD BOSH
-Release][1], and only in cases where the bbr utilities are
+Release][owner], and only in cases where the bbr utilities are
 missing.
 
 To colocate this specific `v0.2.2` BOSH release with your shield-agent instance
@@ -43,8 +43,5 @@ releases:
 
 That's really all there is to it.
 
-Original project links:
-
-Bug: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
-
-Owner:   https://github.com/starkandwayne/shield-boshrelease
+bug: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
+owner:   https://github.com/starkandwayne/shield-boshrelease
