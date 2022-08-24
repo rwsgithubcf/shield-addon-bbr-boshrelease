@@ -43,5 +43,5 @@ releases:
 
 That's really all there is to it.
 
-bug: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
-owner:   https://github.com/starkandwayne/shield-boshrelease
+[bug]: https://github.com/shieldproject/shield-addon-bbr-boshrelease/issues
+[owner]:   https://github.com/starkandwayne/shield-boshrelease
